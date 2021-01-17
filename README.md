@@ -34,14 +34,6 @@ The main focus of the project was to create a simple HTML form with validation c
     - Allow users to delete photos
     - Allow users to submit more than one picture at once
     - Discount customization
-  
-## Challenges
-- Re-learning HTML and PHP after two years of not using these languages
-- First attempt to this project was a very simple form using HTML and JavaScript, which got discarded for being too simple
-- Time constraints:
-    - Saw this intership offer when it was close the deadline
-    - First attempt not good enough
-    
     
 ## Learning Outcomes
 - Improvement using PHP
