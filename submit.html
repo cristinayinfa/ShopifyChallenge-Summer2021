@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- Form Title --> 
+<h2> Photo Submission Form </h2>
+<!-- Form using submit.php for input field validation -->
+<form id="myform" method="post" action="submit.php" enctype="multipart/form-data">
+
+  <!-- Name -->
+  <label for="name"> Photo Name </label> 
+  <input type="text" id="name" name="name">
+    <div id="errmsg">
+      <?php //If $error for name input field was declared there is an error
+        if(isset($error['name'])) { 
+        echo $error['name'];
+        } ?> </div>
+
+  <!-- Price -->
+  <label for="price"> Price </label>
+  <input type="text" id="price" name="price">
+    <div id="errmsg">
+      <?php //If $error for price input field was declared there is an error
+        if(isset($error['price'])) {
+          echo $error['price'];
+        } 
+        if(isset($error['NotANum'])){
+          echo $error['NotANum'];
+        } ?></div>
+
+  <!-- Discount -->
+  <select name="discount">
+    <option value="0"> No discount </option>
+    <option value="10"> 10% OFF </option>
+    <option value="20"> 20% OFF </option>
+  </select>
+  <br>
+  <input type="file" name="file"></input><br>
+    <div id="errmsg">
+      <?php //If $error for price input file was declared there is an error
+        if(isset($error['nofile'])){
+        echo $error['nofile'];
+        } 
+        if(isset($error['wrongType'])){
+          echo $error['wrongType'];
+        } ?>
+      
+    </div>
+    <!-- Submit button -->
+    <button type="submit" name="submit"> Submit </button>
+</form>
+  <!-- Go to gallery button -->
+  <a href="gallery.php"> <button> Photo Gallery </button></a>
+</body>
+</html>
