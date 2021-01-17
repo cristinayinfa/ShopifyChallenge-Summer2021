@@ -39,7 +39,7 @@ The main focus of the project was to create a simple HTML form with validation c
 - Re-learning HTML and PHP after two years of not using these languages
 - First attempt to this project was a very simple form using HTML and JavaScript, which got discarded for being too simple
 - Time constraints:
-    - Saw this intership offer too late
+    - Saw this intership offer when it was close the deadline
     - First attempt not good enough
     
     
