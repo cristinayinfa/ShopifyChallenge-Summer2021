@@ -39,5 +39,5 @@ The main focus of the project was to create a simple HTML form with validation c
 - Improvement using PHP
     - Retrieving files
     - Creating new HTML using PHP (Creating new divisions for pictures in gallery when more pictures are added)
-- Improvement on JavaScript Objects
+- Improvement on JavaScript Objects (First attempt of project that was discarded)
 - More familiarized with responsive web design (Use of a flex-box)
