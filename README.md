@@ -12,6 +12,7 @@ The main focus of the project was to create a simple HTML form with validation c
 ## How to use
 1. Download all files
 1. Run submit.html
+    
     From here you can either submit a photo or check out the gallery
     - Fill out the form to submit a picture into the gallery
     - Click on `Photo Gallery` to check the gallery
