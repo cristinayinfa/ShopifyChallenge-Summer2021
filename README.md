@@ -43,7 +43,7 @@ The main focus of the project was to create a simple HTML form with validation c
     
     
 ## Learning Outcomes
-- Improvement on PHP
+- Improvement using PHP
     - Retrieving files
     - Creating new HTML using PHP (Creating new divisions for pictures in gallery when more pictures are added)
 - Improvement on JavaScript Objects
