@@ -24,6 +24,7 @@ The main focus of the project was to create a simple HTML form with validation c
 - **submit.php:** Form validation code written in PHP that will also give a success message to user when an upload was successful.
 - **submissions folder:** Every time the user does a submission the pictures get saved into this folder. 
 - **gallery.php:** Gallery page written with HTML and PHP, this code takes photos submitted into the submissions folder and displays them out for the user to see.
+- **style.css:** CSS styling for all the pages.
 
 ## Further improvements
 - Implement MySQL database for:
